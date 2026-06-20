@@ -1,0 +1,9 @@
+*.psd
+*.psb
+.DS_Store
+
+# Local Photoshop / test artifacts
+*.tmp
+*.bak
+local/
+test-output/
