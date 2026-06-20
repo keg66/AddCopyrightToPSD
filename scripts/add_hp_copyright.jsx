@@ -47,6 +47,7 @@
         }
 
         hpDoc = duplicateSourceDocument(originalDoc, outputFile);
+        app.activeDocument = templateDoc;
         var copiedGroup = templateGroup.duplicate(hpDoc, ElementPlacement.PLACEATBEGINNING);
         app.activeDocument = hpDoc;
         copiedGroup.move(hpDoc, ElementPlacement.PLACEATBEGINNING);
